@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="https://www.youtube.com/" target="_blank" method="POST">
+        <label for="fname">First name</label><br>
+        <input type="text" id="fname" name="fname" value="John" size="20" readonly><br>
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="lname" maxlength="1" placeholder="Enter Last Name"><br>
+        <label for="native">City</label><br>
+        <input type="text" id="native" name="native" minlength="4" required><br>
+        <label for="number">Number</label><br>
+        <input type="number" id="number" name="number"><br>
+        <label for="result">Result</label><br>
+        <input type="text" id="result" name="result" disabled><br>
+        <label for="files">single file</label><br>
+        <input type="file" id="files" name="files"><br>
+        <label for="files">multiple files</label><br>
+        <input type="file" id="files" name="files" multiple><br>
+        <br>
+        <input type="submit" id="btn" name="btn">
+        <input type="reset" id="btn" name="btn">
+    </form>
+    <audio src="Karuvinil Enai.mp3" controls>K.G.F Song</audio><br>
+    <video src="afeef.mp4" width="250px" height="250px" poster="dosa.jpg" controls loop> </video><br>
+    <svg width="200" height="100">
+        <rect width="200" height="100" style="fill: cadetblue;stroke-width:10px;stroke:rgb(78, 96, 94)"></rect>
+    </svg><br>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+            style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+    </svg>
+    <canvas id="table" width="200" height="100" style="border:1px solid black;">
+    </canvas>
+</body>
+
+</html>
